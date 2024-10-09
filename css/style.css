@@ -1,0 +1,51 @@
+body{
+    background-color: #f7ecde;
+}
+*{
+    box-sizing: border-box;
+}
+
+ h1::before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: #fec260;
+    left: 37.33%;
+    bottom: 10px;
+    z-index: -1;
+    transition: height 350ms;
+}
+h1:hover::before{
+    height: 60%;
+}
+.text-info{
+    color: #40a55b !important;
+}
+.text-yellow{
+    color: #b4ac49;
+}
+.bookmark-body h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.border {
+    border-width: 3px !important;
+    border-top-style: dotted !important;
+    border-bottom-style:dotted !important ;
+}
+
+.submit-color{
+    border: transparent;
+    border-radius: 10px;
+    background-color: #d1512d;
+    
+}
+button:hover{
+    background-color: #a03315;
+}
